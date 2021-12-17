@@ -7,7 +7,7 @@ Pytorch Code of TSME for Visible-Infrared Person Re-Identification.
 
 The goal of this work is to learn a robust and discriminative compensated features between visible images and infrared images for VI-ReID.
 
-- DSGAN (IWPA): It can well generate high-quality generated images by introducing the style transfer between visible grayscale images and infrared images.
+- DSGAN: It can well generate high-quality generated images by introducing the style transfer between visible grayscale images and infrared images.
 
 - PwIF moduel and IAI module: It enhances the representation of the fused feature by constraining the original images and generated paired-images.
 
