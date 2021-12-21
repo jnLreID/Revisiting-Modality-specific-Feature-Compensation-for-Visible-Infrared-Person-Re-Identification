@@ -23,7 +23,7 @@ Method |Datasets    | Rank@1  | mAP |
 Method |Datasets    | Rank@1  | mAP |
 |------| --------      | -----  |  -----  |
 |TSME|#SYSU-MM01 (Visible2Infrared)| ~ 88.02%  | ~ 79.12% |
-|TSME|#SYSU-MM01 (Infrared2Visible)| ~ 86.98%  | ~78.23% |
+|TSME|#SYSU-MM01 (Infrared2Visible)| ~ 86.98%  | ~ 78.23% |
 
 *The code has been tested in Python 3.7, PyTorch=1.0. Both of these two datasets may have some fluctuation due to random spliting
 
