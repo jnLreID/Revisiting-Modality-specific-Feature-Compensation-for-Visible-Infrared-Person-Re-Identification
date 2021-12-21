@@ -14,16 +14,16 @@ The goal of this work is to learn a robust and discriminative compensated featur
 ### Results on the SYSU-MM01 Dataset
 Method |Datasets    | Rank@1  | mAP |
 |------| --------      | -----  |  -----  |
-| TSME|#SYSU-MM01 (Single-shot All-Search)  | ~ 62.65%  | ~ 61.18% |
-| TSME|#SYSU-MM01 (Multi-shot All-Search)   | ~ 67.14%  | ~ 54.22% |
-| TSME|#SYSU-MM01 (Single-shot Indoor-Search)  | ~ 65.16%  | ~ 72.17% |
-| TSME|#SYSU-MM01 (Multi-shot Indoor-Search)   | ~ 76.82%  | ~ 65.72% |
+| TSME|Single-shot All-Search | ~ 62.65%  | ~ 61.18% |
+| TSME|Multi-shot All-Search  | ~ 67.14%  | ~ 54.22% |
+| TSME|Single-shot Indoor-Search  | ~ 65.16%  | ~ 72.17% |
+| TSME|Multi-shot Indoor-Search   | ~ 76.82%  | ~ 65.72% |
 
 ### Results on the RegDB Dataset
 Method |Datasets    | Rank@1  | mAP |
 |------| --------      | -----  |  -----  |
-|TSME|#SYSU-MM01 (Visible2Infrared)| ~ 88.02%  | ~ 79.12% |
-|TSME|#SYSU-MM01 (Infrared2Visible)| ~ 86.98%  | ~ 78.23% |
+|TSME|#RegDB (Visible to Infrared)| ~ 88.02%  | ~ 79.12% |
+|TSME|#RegDB (Infrared to Visible)| ~ 86.98%  | ~ 78.23% |
 
 *The code has been tested in Python 3.7, PyTorch=1.0. Both of these two datasets may have some fluctuation due to random spliting
 
