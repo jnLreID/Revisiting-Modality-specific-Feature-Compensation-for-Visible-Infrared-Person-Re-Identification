@@ -22,8 +22,8 @@ Method |Datasets    | Rank@1  | mAP |
 ### Results on the RegDB Dataset
 Method |Datasets    | Rank@1  | mAP |
 |------| --------      | -----  |  -----  |
-|TSME|#RegDB (Visible to Infrared)| ~ 88.02%  | ~ 79.12% |
-|TSME|#RegDB (Infrared to Visible)| ~ 86.98%  | ~ 78.23% |
+|TSME|Visible to Infrared| ~ 88.02%  | ~ 79.12% |
+|TSME|Infrared to Visible| ~ 86.98%  | ~ 78.23% |
 
 *The code has been tested in Python 3.7, PyTorch=1.0. Both of these two datasets may have some fluctuation due to random spliting
 
