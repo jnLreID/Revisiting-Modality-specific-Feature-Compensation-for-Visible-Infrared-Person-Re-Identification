@@ -1,6 +1,6 @@
 # Revisiting-Modality-specific-Feature-Compensation-for-Visible-Infrared-Person-Re-Identification
 
-# TSME-Two-stage Modlaity Enhancement Network for VI-ReID
+# TSME-Two-Stage Modlaity Enhancement Network for VI-ReID
 Pytorch Code of TSME for Visible-Infrared Person Re-Identification.
 
 ## Highlight
