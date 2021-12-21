@@ -12,13 +12,17 @@ The goal of this work is to learn a robust and discriminative compensated featur
 - PwIF moduel and IAI module: It enhances the discriminability of the fused feature by constraining the original images and generated paired-images.
 
 ### Results on the SYSU-MM01 Dataset
-Method |Datasets    | Rank@1  | mAP |  mINP | 
-|------| --------      | -----  |  -----  | ----- |
-| AGW [[1](https://github.com/mangye16/Cross-Modal-Re-ID-baseline)]  |#SYSU-MM01 (All-Search)    | ~ 47.50%  | ~ 47.65% | ~ 35.30% | 
-| DDAG|#SYSU-MM01 (All-Search)  | ~ 54.75%  | ~ 53.02% | ~39.62% |
-| AGW [[1](https://github.com/mangye16/Cross-Modal-Re-ID-baseline)] |#SYSU-MM01 (Indoor-Search)    | ~ 54.17% | ~ 62.97% | ~ 59.23%| 
-| DDAG|#SYSU-MM01 (Indoor-Search)  | ~ 61.02% | ~ 67.98% | ~ 62.61%|
-
+Method |Datasets    | Rank@1  | mAP |
+|------| --------      | -----  |  -----  |
+| TSME|#SYSU-MM01 (Single-shot All-Search)  | ~ 62.65%  | ~ 61.18% |
+| TSME|#SYSU-MM01 (Multi-shot All-Search)   | ~ 67.14%  | ~ 54.22% |
+| TSME|#SYSU-MM01 (Single-shot Indoor-Search)  | ~ 65.16%  | ~ 72.17% |
+| TSME|#SYSU-MM01 (Multi-shot Indoor-Search)   | ~ 76.82%  | ~ 65.72% |
+### Results on the RegDB Dataset
+Method |Datasets    | Rank@1  | mAP |
+|------| --------      | -----  |  -----  |
+| TSME|#SYSU-MM01 (Visible2Infrared)  | ~ 88.02%  | ~ 79.12% |
+| TSME|#SYSU-MM01 (Infrared2Visible)   | ~ 86.98%  | ~78.23% |
 *The code has been tested in Python 3.7, PyTorch=1.0. Both of these two datasets may have some fluctuation due to random spliting
 
 ### 1. Prepare the datasets.
@@ -68,11 +72,12 @@ python test.py --dataset sysu --mode all --gpu number --resume 'model_path'
 
 Please kindly cite the references in your publications if it helps your research:
 ```
-@inproceedings{eccv20ddag,
-  title={Dynamic Dual-Attentive Aggregation Learning for Visible-Infrared Person Re-Identification},
-  author={Ye, Mang and Shen, Jianbing and Crandall, David J. and Shao, Ling and Luo, Jiebo},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2020},
+@inproceedings{r19,
+	title={Rgb-infrared cross-modality person re-identification},
+	author={Wu, Ancong and Zheng, Wei-Shi and Yu, Hong-Xing and Gong, Shaogang and Lai, Jianhuang},
+	booktitle={Proceedings of the IEEE International Conference on Computer Vision},
+	pages={5380--5389},
+	year={2017},
 }
 ```
 
