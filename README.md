@@ -67,7 +67,7 @@ python test.py --dataset sysu --mode all --gpu number --resume 'model_path'
   - `--trial`: testing trial (only for RegDB dataset).
   
   - `--resume`: the saved model path. ** Important **(Ours trained model:https://pan.baidu.com/s/1k2nNjYoztD-WpiU5_kFxlQ 
-提取码：ReID)
+提取码：****)
   
   - `--gpu`:  which gpu to run.
 
