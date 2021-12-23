@@ -75,7 +75,7 @@ python test.py --dataset sysu --mode all --gpu number --resume 'model_path'
 
 Please kindly cite the references in your publications if it helps your research:
 ```
-@inproceedings{r19,
+@inproceedings{17iccv,
 	title={Rgb-infrared cross-modality person re-identification},
 	author={Wu, Ancong and Zheng, Wei-Shi and Yu, Hong-Xing and Gong, Shaogang and Lai, Jianhuang},
 	booktitle={Proceedings of the IEEE International Conference on Computer Vision},
@@ -85,7 +85,7 @@ Please kindly cite the references in your publications if it helps your research
 ```
 
 ```
-@article{arxiv20reidsurvey,
+@article{21pami,
   title={Deep Learning for Person Re-identification: A Survey and Outlook},
   author={Ye, Mang and Shen, Jianbing and Lin, Gaojie and Xiang, Tao and Shao, Ling and Hoi, Steven C. H.},
   journal={arXiv preprint arXiv:2001.04193},
